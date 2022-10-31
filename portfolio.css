@@ -39,6 +39,18 @@ p
 #name
 {
     color: rgba(71,92,154,255);
+    transition: color 0.15s;
+}
+
+#name:hover
+{
+    color: rgba(162,202,252,255);
+    transition: opacity 0.15s;
+}
+
+#name:active
+{
+    opacity: 0.3;
 }
 
 #major
@@ -46,6 +58,18 @@ p
     display: block;
     color: rgba(162,202,252,255);
     font-size: 18px;
+    transition: color 0.15s;
+}
+
+#major:hover
+{
+    color: rgba(71,92,154,255);
+    transition: opacity 0.15s;
+}
+
+#major:active
+{
+    opacity: 0.3;
 }
 
 #program, #discipline
@@ -54,6 +78,30 @@ p
     color: rgba(162,202,252,255);
     display: inline;
     font-size: 14px;
+}
+
+#program:hover
+{
+    color: rgba(71,92,154,255);
+    transition: opacity 0.15s;
+}
+
+#disipline:hover
+{
+    color: rgba(71,92,154,255);
+    transition: opacity 0.15s;
+}
+
+#program:active
+{
+    color: rgba(71,92,154,255);
+    transition: opacity 0.15s;
+}
+
+#disipline:active
+{
+    color: rgba(71,92,154,255);
+    transition: opacity 0.15s;
 }
 
 #intro-pic
@@ -99,6 +147,7 @@ p
 {
     padding-left: 1.1em;
     padding-right: 1.1em;
+    margin-bottom: 2rem;
 }
 
 #about-me-text
@@ -111,4 +160,20 @@ p
 {
     padding-left: 1.1em;
     padding-right: 1.1em;
+}
+
+.links
+{
+    color: rgba(71,92,154,255);
+}
+
+.links:hover
+{
+    color: rgba(162,202,252,255);
+    transition: opacity 0.5s;
+}
+
+.links:active
+{
+    opacity: 0.4;
 }
