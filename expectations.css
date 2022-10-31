@@ -1,0 +1,98 @@
+body {
+	font-family: Bembo, Crimson Text, Adobe Garamond, Georgia;
+	color: #000000;
+	margin: 10px;
+	background: white url(sharedimages/delearthwp.jpg) repeat top right;
+}
+
+/* General selector values */
+p {
+	line-height: 1.4em;
+}
+
+h1, h2, h3 {
+	font-family: Interstate;
+    color: black;
+    font-size: 1.8em;
+	margin: 0;
+	padding: 0.1em;
+	padding-left: 1em;
+	text-align: center;
+}
+
+img {
+	border-width: 0;
+	border-color: black;
+}
+					
+#content img {
+			padding: 1px;
+			float: right;
+			margin: 0 0 1em 1em;
+		}
+
+a {
+	text-decoration: none;
+}
+
+
+
+a:link {
+	color: rgb(29, 161, 242);
+}
+
+a:visited {
+	color: rgb(29, 161, 242);
+}
+
+
+/* Layout */
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 10;
+}
+
+#navigation {
+	position: absolute;
+	margin: 260px 0 0 0px; 
+	padding: 5px;
+	width: 250px;
+	top: 0;
+	left: 10;
+	border-right: 10px solid #104E8B;
+}
+
+#navigation img {
+	float:left;
+	padding: 5px;
+}
+
+
+#content {
+	margin: 250 0 0 0; 
+}
+
+#content img {
+	padding: 5px;
+}
+
+#picture {
+	padding: 1px;
+	float: right;
+	text-align: center;
+	font-size: 8pt;
+	margin: 0 0 1em 1em;
+}
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+
+
+#footer img {
+	padding: 10px;
+}
