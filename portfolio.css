@@ -80,28 +80,16 @@ p
     font-size: 14px;
 }
 
-#program:hover
+#program:hover, #discipline:hover
 {
     color: rgba(71,92,154,255);
     transition: opacity 0.15s;
 }
 
-#disipline:hover
+#program:active, #discipline:active
 {
     color: rgba(71,92,154,255);
-    transition: opacity 0.15s;
-}
-
-#program:active
-{
-    color: rgba(71,92,154,255);
-    transition: opacity 0.15s;
-}
-
-#disipline:active
-{
-    color: rgba(71,92,154,255);
-    transition: opacity 0.15s;
+    opacity: 0.3;
 }
 
 #intro-pic
@@ -119,6 +107,29 @@ p
 {
     font-size: 1rem;
     line-height: 2.5rem;
+    transition: color 0.15s;
+}
+
+#umd-text
+{
+    color: black;
+}
+
+#umd-text:hover
+{
+    color: red;
+    transition: color 0.15s;
+}
+
+#roblox
+{
+    color: black;
+    transition: color 0.15s;
+}
+
+#roblox:hover
+{
+    color: rgba(193,204,215,255);
 }
 
 #pic-div
@@ -138,9 +149,13 @@ p
 
 #email
 {
-    text-decoration: none;
     color: rgba(162,202,252,255);
+    transition: text-decoration 0.15s;
+}
 
+#email:hover
+{
+    text-decoration: underline;
 }
 
 #about-me
@@ -156,10 +171,44 @@ p
     line-height: 2.5rem;
 }
 
+#sgc
+{
+    color: black;
+    transition: color 0.15s;
+}
+
+#sgc:hover
+{
+    color: green;
+}
+
+#scholars
+{
+    color: black;
+    transition: color 0.15s;
+}
+
+#scholars:hover
+{
+    color: rgb(255, 213, 32)
+}
+
+#hsenvclub
+{
+    color: black;
+    transition: color 0.15s;
+}
+
+#hsenvclub:hover
+{
+    color: #356a20;
+}
+
 #projects-links
 {
     padding-left: 1.1em;
     padding-right: 1.1em;
+    margin-bottom: 2em;
 }
 
 .links
@@ -176,4 +225,17 @@ p
 .links:active
 {
     opacity: 0.4;
+}
+
+#last-modified
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 1.7em;
+}
+
+#modified-text
+{
+    font-weight: bold;
+    font-size: 0.7em;
 }
