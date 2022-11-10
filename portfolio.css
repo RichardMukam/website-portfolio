@@ -92,15 +92,22 @@ p
     opacity: 0.3;
 }
 
-#intro-pic
+#intro-div
 {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: 15em;
     align-items: top;
     column-gap: 1.5em;
     padding-left: 1.1em;
     padding-right: 1.1em;
     margin-bottom: 2rem;
+}
+
+#intro
+{
+   width: 100%;
+   height: 100%;
 }
 
 #intro-text
@@ -135,13 +142,14 @@ p
 #pic-div
 {
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 #pic
 {
     object-fit: cover;
-    object-position: center;
+    object-position: top;
+    /*border-radius: 10em;*/
     width: 100%;
     height: 100%;
     overflow: hidden;
