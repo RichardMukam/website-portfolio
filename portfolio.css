@@ -242,7 +242,7 @@ li
 
 #download-btn
 {
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 #pic
