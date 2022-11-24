@@ -1,0 +1,27 @@
+p
+{
+    line-height: 2rem;
+}
+
+#my-name
+{
+    margin-bottom: 3rem;
+}
+
+#photo-1
+{
+    display: grid;
+    grid-template-rows: 3rem 5fr;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    align-items: center;
+    text-align: center;
+}
+
+#first-image
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

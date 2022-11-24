@@ -1,45 +1,55 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Richard's Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="//www.geol.umd.edu/sgc/portfoliostyle.css" />
-        <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="//www.geol.umd.edu/sgc/portfoliosmall.css" />
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="gallery.css">
+        <!-- meta tags -->
+        <meta charset="UTF-8">
+        <meta name="description" content="A gallary showcasing the various excursion trips that Richard has participated in.">
+        <meta name="keywords" content="Richard Mukam Jr, Richard, Mukam, UMD, University of Maryland, UofM">
+        <meta name="author" content="Richard Mukam Jr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://umd.edu/sites/umd.edu/files/favicon.ico">
+        <!-- import for Roboto Slab font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <!-- import for Roboto font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="header">
-            <div align="left">
-                <a href="http://www.scholars.umd.edu/" HEIGHT=50><img src="http://www.geol.umd.edu/sgc/sharedimages/sunspot.gif" HEIGHT=50></a>
-                <a href="http://www.umd.edu"><img src="https://www.geol.umd.edu/~tholtz/webglobe.gif" HEIGHT=50></a>
-                <a href="http://www.geol.umd.edu/sgc/"><img src="http://www.geol.umd.edu/sgc/sharedimages/sgcsmall.gif"  HEIGHT=50></a>
-            </div>
-
-            <p>
-                <h2><b>Richard Mukam Jr</h2></b>
-            </p>
+        <div id="header-div">
+            <a href="http://www.scholars.umd.edu/"><img class="umd-icons" src="http://www.geol.umd.edu/sgc/sharedimages/sunspot.gif"></a>
+            <a href="http://www.umd.edu"><img class="umd-icons" src="https://www.geol.umd.edu/~tholtz/webglobe.gif"></a>
+            <a href="http://www.geol.umd.edu/sgc/"><img class="umd-icons" src="http://www.geol.umd.edu/sgc/sharedimages/sgcsmall.gif"></a>
         </div>
-        <div id="content">
-            <!-- Image A module begins here>
-            <!-- Substitute your own image and caption from an SGC activity. Constrain image size either by width or height but not both. (Eliminate one of the constraints.) -->
-            <p>
-                <div id="picture">
-                    <img style="object-fit: cover; object-position: 50% 50%" src="IMG_0403.jpeg" width=480 height=390><br>
-                        Me in waders while on my first SGC excursion
-                </div>
-                <p style="line-height: 30px">
-                    <!-- Description of activity -->
+        
+        <div id="my-name">
+            <h1>
+                <p id="name">Photo Gallery</p>
+            </h1>
+        </div>
+
+        <div id="photo-1">
+            <div class="image-description">
+                <p>
                     As one of my required excursion trips of the semester, I decided to sign-up for a trip to the Smithsonian
                     Environmental Research Center. The first activity that we did was sample various water life species and
                     classify them in four categories: hoppers, swimmers, sitters, and fliers. But to actually classify them,
                     we had to capture them. So, I got the opportunity to fish, which required us to actually go into the waters
                     which was thrilling!
                 </p>
-            <p>
-            <br clear="right" />
-            <!-- Image A module ends here> -->
+            </div>
+            <div id="image-div">
+                <img id="first-image" src="IMG_0403.jpeg" alt="Me in waders while on my first SGC excursion">
+            </div>
         </div>
-        <div id="footer">
-            <p>
-                <h6>Last modified: 15 October 2022</h6>
+        
+        <div id="last-modified">
+            <p id="modified-text">
+                <a id="modified-text-style" href="https://github.com/RichardMukam/website-portfolio" target="_blank">Last modified: 22 November 2022</a>
             </p>
         </div>
     </body>
