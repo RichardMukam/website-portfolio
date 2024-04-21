@@ -1,0 +1,12 @@
+#rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#video {
+    display: flex;
+    justify-content: center;
+}
